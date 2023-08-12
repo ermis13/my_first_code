@@ -1,1 +1,1 @@
-# my_first_code
+# Here are my first steps in Python
