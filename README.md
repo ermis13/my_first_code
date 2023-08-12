@@ -7,5 +7,6 @@ Install those programs:
 3. git
 
     3.1 set git user & email (if not set already)
+    
         git config --global user.name "user" 
         git config --global user.email "email"
