@@ -1,4 +1,4 @@
-# this is a function
+# this is a function definition: "def <name>(paramters)"
 # a function can have parameters
 def print_text(text):
   print(text) # a instruction

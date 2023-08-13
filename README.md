@@ -4,6 +4,14 @@ Execute a program
 
     python first.py   
 
+## Important concepts
+- variable
+
+Control Structures
+- function, function parameter, main function
+- loop: while, for
+- if - else conditions
+
 ## How to get started?
 Install those programs:
 1. Python  
