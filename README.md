@@ -2,7 +2,7 @@
 
 Execute a program
 
-    python first.py   
+    python <program>.py   
 
 ## Important concepts
 - variable
