@@ -16,6 +16,13 @@ def main():
   # this is a loop (endless loop)
   while True:
     operation = input("Select an operation (+, -, *, /): ")
+    
+    if not operation in ["+","-","*","/"]:
+        print("Invalid operation!")
+        continue
+
+    num1 = float(input("Enter the first number: "))
+    num2 = float(input("Enter the second number: "))
 
     if operation == "+":
         print(num1, "+", num2, "=", add(num1, num2))
@@ -26,12 +33,6 @@ def main():
         print(num1, "*", num2, "=", multiply(num1, num2))
     elif operation == "/":
         print(num1, "/", num2, "=", divide(num1, num2))
-    else:
-        print("Invalid operation!")
-        continue
-
-    num1 = float(input("Enter the first number: "))
-    num2 = float(input("Enter the second number: "))
 
     choice = input("Do you want to continue? (y/n): ")
     if choice == "n":
